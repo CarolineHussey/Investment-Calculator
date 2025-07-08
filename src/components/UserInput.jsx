@@ -3,6 +3,7 @@ export default function UserInput({ onChange, userInput }) {
     <section id="user-input">
       <div className="input-group">
         <p>
+          {/* two-way binding */}
           <label>Initial Investment</label>
           <input
             type="number"

@@ -17,6 +17,7 @@ function App() {
     setUserInput((prevUserInput) => {
       return {
         ...prevUserInput,
+        // Use + to convert the input value from a  string to a number
         [inputIdentifier]: +newValue,
       };
     });
